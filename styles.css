@@ -8,12 +8,11 @@ header {
     border-bottom: solid 2px rgb(175, 11, 216);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(175, 11, 216);
     text-align: center;
 }
-section {
-    background: linear-gradient(rgb(175, 11, 216), rgb(0, 0, 0));
-    padding-bottom: 40%;
+.chamada {
+    padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
@@ -30,6 +29,15 @@ img{
 }
 .video{
     justify-content: center;
-    display: grid;
+    display: flex;
     overflow-x: auto;
+}
+.categorias {
+    padding-bottom: 40%;
+    padding-top: 80px;
+    display: grid;
+    justify-content: center;
+}
+.fundo {
+    background: repeating-linear-gradient(rgb(175, 11, 216), rgb(0, 0, 0));
 }
