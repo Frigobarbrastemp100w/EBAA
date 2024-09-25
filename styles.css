@@ -24,7 +24,7 @@ h1{
     font-size: 40px;
 }
 img{
-    padding: 5px;
+    padding: 2px;
     display: grid;
 }
 .video{
@@ -40,4 +40,21 @@ img{
 }
 .fundo {
     background: repeating-linear-gradient(rgb(175, 11, 216), rgb(0, 0, 0));
+}
+.video img {
+    opacity: 0.5;
+    width: 200px;
+}
+.video img:hover {
+    opacity: 1.0;
+    border: 3px outset rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.footer{
+    background-color: #000000;
+    text-align: left;
+    padding: 1px;
+    color:rgb(255, 255, 255);
+    font-family: 'Gowun+Batang';
+    font-size: 10px;
 }
