@@ -2,59 +2,74 @@ body {
     color: white;
     background: rgb(24, 24, 24);
     margin: 0px;
-    font-family: 'SUSE', sans-serif;
+    font-family: 'Outifit', sans-serif;
 }
+
 header {
     border-bottom: solid 2px rgb(175, 11, 216);
     padding: 20px;
     font-size: 32px;
     color: rgb(175, 11, 216);
     text-align: center;
+    font-family: 'Protest Strike', sans-serif;
 }
+
 .chamada {
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
+
 .chamada-texto {
     margin-right: 5%;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-img{
+
+img {
     padding: 2px;
     display: grid;
 }
-.video{
+
+.video {
     justify-content: center;
     display: flex;
     overflow-x: auto;
 }
+
 .categorias {
     padding-bottom: 40%;
     padding-top: 80px;
     display: grid;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
+
 .fundo {
     background: repeating-linear-gradient(rgb(175, 11, 216), rgb(0, 0, 0));
 }
+
 .video img {
     opacity: 0.5;
     width: 200px;
 }
+
 .video img:hover {
     opacity: 1.0;
     border: 3px outset rgb(255, 255, 255);
     border-radius: 4px;
 }
-.footer{
+
+.footer {
     background-color: #000000;
     text-align: left;
     padding: 1px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family: 'Gowun+Batang';
     font-size: 10px;
 }
